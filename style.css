@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+.container{
+
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 30% 50% 5%
+}
+.a{
+    
+    background-color: aquamarine;
+}
+.b{
+    
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+}
+.b1{
+background: slateblue;
+}
+.b2{
+background: teal;
+}
+.b3{
+background: darkgoldenrod;
+}
+.b4{
+background: darkolivegreen
+}
+
+.c{
+    background-color: aquamarine;
+    
+}
+    
+    
+
+.d{
+    background-color: silver;
+}
+
+.photos{
+    border-style: groove;
+    border-width: 10px;
+    border-color: goldenrod;
+    max-height: 250px;
+    max-width:  200px;;
+    margin-left: 10px;
+    
+}
+.opis{
+    right: 20px;
+
+
+}
