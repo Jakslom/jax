@@ -32,9 +32,11 @@ background: darkolivegreen
 }
 
 .c{
-    background-color: aquamarine;
-    
+    display:grid;
+    grid-template-rows: 10% 90%;
+    height: 100%;
 }
+
     
     
 
