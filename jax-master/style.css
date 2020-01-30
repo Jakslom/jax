@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 30% 3% 44%   3%;
+}
+section{
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%
+    
+}
+
+.mapy{
+    
+    
+    background-color: blueviolet;
+}
+
+
+#widok{
+    border-style: groove;
+    border-width: 3px;
+    
+}
+header{
+    text-align: center;
+}
+footer{
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.photos{
+    border-style: groove;
+    border-width: 3px;
+    
+    max-height: 150px;
+    max-width: 150px;
+    margin-left: 8cm;
+    
+    
+}
+
+
+
+.b1{
+background: blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+.b2{
+background: blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+.b3{
+background: blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+.b4{
+background:blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+
