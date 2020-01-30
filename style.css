@@ -1,60 +1,66 @@
 html, body {
     height: 100%;
-}
-
-.container{
-
-    height: 100%;
-    display: grid;
-    grid-template-rows: 15% 30% 50% 5%
-}
-.a{
-    
-    background-color: aquamarine;
-}
-.b{
-    
+    width: 100%;
     background-color: burlywood;
-    display: grid;
-    grid-template-columns:  25% 25% 25% 25%;
+    
 }
-.b1{
-background: slateblue;
-}
-.b2{
-background: teal;
-}
-.b3{
-background: darkgoldenrod;
-}
-.b4{
-background: darkolivegreen
-}
-
-.c{
-    display:grid;
-    grid-template-rows: 10% 90%;
+.container{
     height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 30% 3% 54% 3%;
+}
+section{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%
+    
 }
 
+#widok{
+    border-style: groove;
+    border-width: 3px;
     
-    
-
-.d{
-    background-color: silver;
 }
-
+header{
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    
+}
 .photos{
     border-style: groove;
-    border-width: 10px;
-    border-color: goldenrod;
-    max-height: 250px;
-    max-width:  200px;;
-    margin-left: 10px;
+    border-width: 3px;
+    
+    max-height: 150px;
+    max-width: 150px;
+    margin-left: 8cm;
+    
     
 }
-.opis{
-    right: 20px;
 
 
+
+.b1{
+background: blanchedalmond;
+border-style: groove;
+border-width: 3px;
 }
+.b2{
+background: blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+.b3{
+background: blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+.b4{
+background:blanchedalmond;
+border-style: groove;
+border-width: 3px;
+}
+
